@@ -16,7 +16,7 @@ Given $n$ images and labels $(a_i, b_i)_{1\leq i \leq n}$
 $$ \underset{x\in \mathbb{R}^{785}}{\min}f(x) :=\{  \frac 1n \underset{1\leq i \leq n}{\sum}l_{a_i, b_i}(x) +\frac \lambda 2 ||x||^2 \} $$
 
 where
-$l_{a,b}(x) = \text{hinge}(b \cdot x^T a) = \max ( 0, 1-b\cdot x^Ta )$.
+$l_{a,b}(x) = \text{hinge}(b \cdot x^T a) = \max ( 0, 1-b\cdot x^Ta )$ and $\lambda \geq 0$ is a regularization term. 
 
 We compared several onlinve convex optimization algorithms such as Online Gradient Descent, Stochastic Mirror Descent and Online Newton step for this problem. 
 
