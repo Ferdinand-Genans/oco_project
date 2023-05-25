@@ -7,7 +7,7 @@ Whe have 28x28 pixels images that we represent as vectors of
 $\mathbb{R}^{784}$. We note $a_i \in \mathbb{R}^{785}$ an image and
 it's intercept, $b_i$ its category.
 
-Lets recall that by analogy with our lectures note we want to find
+Mathematically, we want to find
 $x \in \mathbb{R}^{785}$ that minimizes the following soft margin
 problem:
 
