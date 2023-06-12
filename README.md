@@ -1,4 +1,4 @@
-# oco_project
+# Online convex optimization project
 We want to classify handwritten digits using a Linear
 Support Vector Machine (SVM), dealing with two categories: $\{-1, 1\}$
 where 1 represents the digit 0 and -1 all the other digits.
